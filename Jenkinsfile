@@ -11,12 +11,6 @@ pipeline {
                 bat 'mvn test'
             }
             
-            
         }
-		stage("unit testing") {
-            steps {
-                bat 'mvn verify -DskipUnitTests'
-            }
-            }
     }
 }
