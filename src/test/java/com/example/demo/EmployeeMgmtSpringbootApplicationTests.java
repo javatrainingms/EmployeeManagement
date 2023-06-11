@@ -8,6 +8,8 @@ class EmployeeMgmtSpringbootApplicationTests {
 
 	@Test
 	void contextLoads() {
+		System.out.println("testing for emp management application...");
+		
 	}
 
 }
