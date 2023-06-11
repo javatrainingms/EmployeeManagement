@@ -10,7 +10,12 @@ pipeline {
             steps {
                 bat 'mvn test'
             }
-            
         }
+        stage("Integration testing") {
+            steps {
+                bat 'mvn verify -DskipTests'
+            }
+        }
+
     }
 }
